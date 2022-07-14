@@ -4,79 +4,117 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/9084c12a10.js" crossorigin="anonymous"></script>
     <title>Roy Ayala</title>
 </head>
 <body>
-    <h1>Roy Ayala</h1>
-    <h3>Información general:</h3>
-    <p>
-        Nombre: Roy Alan <br>
-        Apellido: Ayala Ruiz <br>
-        Email: troysg8203@gmail.com <br>
-        <a href="https://github.com/Troy8203">Github</a>
-        <a href="https://www.linkedin.com/in/roy-ayala-934b75219/">Linkedin</a>
-    </p>
-    <h3>Información biográfica</h3>
-    <p>
-        Mi nombre es Roy Ayala actualmente estudio en Informatica y me estoy especializando en desarrollo Front-end.
-    </p>
-    <h3>Experiencia</h3>
-    <p>Actualmente no cuento con experiencia pero me gustaria trabajar en</p>
-    <ul>
-        <li>Jalasoft</li>
-        <ol>
-            <li>Web Developer</li>
-            <li>Junior Front-end Developer</li>
-            <li>Junior Sofware Desingner</li>
-        </ol>
-    </ul>
-    
-    <h3>Habilidades Tecnicas</h3>
-    <table>
-        <tr>
-            <th>Tecnologia</th>
-            <th>Habilidades</th>
-        </tr>
-        <tr>
-            <td>
-                <ul>
-                    <li>Java</li>
-                    <li>Python</li>
-                    <li>C#</li>
-                    <li>C++</li>
+    <div class="main-container">
+        <div class="container-profile">
+            <img src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png" alt="">
+            <div class="information">
+                <h1>Roy Ayala</h1>
+                <h3>Información general:</h3>
+                <ul class="date-profile">
+                    <li>Nombre: Roy Alan</li>
+                    <li>Apellido: Ayala Ruiz</li>
+                    <li>Email: troysg8203@gmail.com</li>
+                    <li>
+                        <a href="https://github.com/Troy8203">
+                            <i class="fa-brands fa-github-square " id="icon-github"></i>
+                            Github
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.linkedin.com/in/roy-ayala-934b75219/">
+                            <i class="fa-brands fa-linkedin" id="icon-linkedin"></i>
+                            Linkedin
+                        </a>
+                    </li>
                 </ul>
-            </td>
-            <td>
-                <ul>
-                    <li>Programacion Basica</li>
-                    <li>Programacion Orientada a Objetos</li>
-                </ul>
-            </td>
-        </tr>
-    </table>
-    <h3>Interes</h3>
-    <table>
-        <tr>
-            <th>Tecnologia de Interes</th>
-            <th>Descripcion</th>
-        </tr>
-        <tr>
-            <td>
-                Desarrollo movil
-            </td>
-            <td>
-                Tengo mucho interes en desarrollo aplicaciones moviles por ello quiero empezar mi cambino como Mobile Developer
-            </td>
-        </tr>
-        <tr>
-            <td>Back-end</td>
-            <td>Una vez aprendido Front-end quiero seguir indagando en el desarrollo web por ello quiero continuar con el siguiente paso para Back-end</td>
-        </tr>
-    </table>
-    <form>
+            </div>
+        </div>
+        <div class="container-right">
+            <div class="information-bio">
+                <div class="container-information-bio">
+                    <h3>Información biográfica</h3>
+                    <p>
+                        Mi nombre es Roy Ayala actualmente estudio en Informatica y me estoy especializando en desarrollo Front-end.
+                    </p>
+                </div>
+                <div class="container-exp">
+                    <h3>Experiencia</h3>
+                    <p>Actualmente no cuento con experiencia pero me gustaria trabajar en: </p>
+                    <ul>
+                        <li>Jalasoft</li>
+                        <ol>
+                            <li>Web Developer</li>
+                            <li>Junior Front-end Developer</li>
+                            <li>Junior Sofware Desingner</li>
+                        </ol>
+                    </ul>
+                </div>
+            </div>
+            <div class="container-bot">
+                <h3>Habilidades Tecnicas</h3>
+                <table class="table-skill">
+                    <tr>
+                        <th>Tecnologia</th>
+                        <th>Habilidades</th>
+                    </tr>
+                    <tr>
+                        <td>
+                            <ul class="languaje-prog">
+                                <li><i class="fa-brands fa-java"></i> Java</li>
+                                <li><i class="fa-brands fa-python"></i> Python</li>
+                                <li><i class="fa-brands fa-html5"></i> Html</li>
+                                <li><i class="fa-brands fa-css3-alt"></i> Css</li>
+                                <li><i class="fa-brands fa-js-square"></i> Javascript</li>
+                            </ul>
+                        </td>
+                        <td>
+                            <ul>
+                                <li><span class="text-skills">Responsabilidad</span> con los proyectos para el desarrollo.</li>
+                                <li><span class="text-skills">Dominio</span> de lenguajes de programación.</li>
+                                <li><span class="text-skills">Algoritmos y estructuración de datos</span>.</li>
+                                <li>Capacidad de <span class="text-skills">resolución de problemas</span>.</li>
+                                <li><span class="text-skills">Creativo</span>.</li>
+                            </ul>
+                        </td>
+                    </tr>
+                </table>
+                <h3>Interes</h3>
+                <table>
+                    <tr>
+                        <th>Tecnologia de Interes</th>
+                        <th>Descripcion</th>
+                    </tr>
+                    <tr>
+                        <td>
+                            Desarrollo movil
+                        </td>
+                        <td>
+                            Tengo mucho interes en desarrollo aplicaciones moviles por ello quiero empezar mi cambino como Mobile Developer
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Back-end</td>
+                        <td>Una vez aprendido Front-end quiero seguir indagando en el desarrollo web por ello quiero continuar con el siguiente paso para Back-end</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+    <!-- <form>
         <textarea cols="100" rows="15"></textarea>
         <br>
         <input type="button" value="Contactar">
-    </form>
+    </form> -->
 </body>
 </html>
