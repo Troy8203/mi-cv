@@ -34,7 +34,7 @@ h3 {
     display: flex;
     flex-flow: column nowrap;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-evenly;
     background-color: #E9E9E920;
     border-radius: 1em;
     width: 40%;
@@ -95,11 +95,6 @@ h3 {
     padding: .7em 2em;
 
     border-radius: 1em;
-}
-
-
-.table-skill {
-
 }
 
 .text-skills {
